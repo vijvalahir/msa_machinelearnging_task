@@ -14,7 +14,7 @@ The model allows the users to input no of cores and frequency to their liking ma
 
 ## Example
 Entering core i9 13900k specifications: cores= 24 frequency= 5.8 Ghz
-we get the output of 20962.46 which is withing 1000 points of the geekbench 6 score proving the model works.
+we get the output of 20962.46 which is within 1000 points of the geekbench 6 score proving the model works.
 
 ## Known Issues
 The model only works for intel raptor lake desktop cpu other processors dont work at all because of having a different architecture qnd power draw.
