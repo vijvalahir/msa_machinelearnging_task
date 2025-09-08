@@ -1,0 +1,20 @@
+import pandas
+from sklearn import linear_model
+
+df = pandas.read_csv("cpudata.csv")
+
+X = df[['cores', 'frequency']]
+Y = df['score']
+
+regr = linear_model.LinearRegression()
+regr.fit(X, Y)
+
+print("Enter no of cores")
+a=input()
+b=float(a)
+print("Enter the frequency of cpu")
+c=input()
+d=float(c)
+predictedscore = regr.predict(pandas.DataFrame([[b, d]],columns=['cores', 'frequency']))
+
+print(predictedscore)
