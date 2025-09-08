@@ -5,7 +5,7 @@
 The dataset is taken from the official geekbench website.
 
 ## Workflow
-The model works on the concept of linear regression.
+The model works on the concept of multiple linear regression.
 
 plotting: No of cores and boost frequency on the X axis
           Geekbench 6 score on the Y axis 
