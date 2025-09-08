@@ -1,5 +1,5 @@
 # msa_machinelearnging_task 
-# Making a Machine learning Model to get a Geekbench 6 Score for Intel Raptor Lake Cpus
+# Making a Machine Learning Model to get a Geekbench 6 Score for Intel Raptor Lake Cpus
 
 ## Dataset
 The dataset is taken from the official geekbench website.
